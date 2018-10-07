@@ -22,10 +22,10 @@ import csv
 #                   [arg1] : client_id
 #                   [arg2] : client_secret
 # refresh_token : same the access_token
-client_id =  "22D85M"
-client_secret  = "bec58326526e7e1bcb921dccf6a36ff6"
-access_token =  "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2VjIyS1QiLCJhdWQiOiIyMkQ4NU0iLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJhY3QgcnNldCBybG9jIHJ3ZWkgcmhyIHJwcm8gcm51dCByc2xlIiwiZXhwIjoxNTM4ODE1MzI3LCJpYXQiOjE1Mzg3ODY1Mjd9.QpFQekisjqpfYOdsT5gD0HJshyw5oh7zZTTlCG8agGE"
-refresh_token =  "ae66d97ab25c3e7d851d87b66a32605cad4a2910a3242d1dbb71ea5bc531a46e"
+client_id =  "******"
+client_secret  = "**************************"
+access_token =  "************************************"
+refresh_token =  "****************************************"
 
 #出力はカレントディレクトリに日付を付与したファイル名でファイルを作成
 output_file = datetime.datetime.now().strftime("%Y%m%d_%H%M") + "_fitbit.txt"
